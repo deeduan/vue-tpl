@@ -9,8 +9,14 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
+    "lib-flexible": "^0.3.2",
+    "normalize.css": "^8.0.1",
+    "vant": "^2.2.1",
     "vue": "^2.6.10",
+    "vue-cookies": "^1.5.13",
+    "vue-ls": "^3.2.1",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
@@ -24,9 +30,12 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "babel-plugin-import": "^1.12.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "mockjs": "^1.0.1-beta3",
     "node-sass": "^4.9.0",
+    "postcss-pxtorem": "^4.0.1",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   }
